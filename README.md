@@ -3,21 +3,16 @@ BYU/BYUI Ride Board App
 
 Problem
 -------
-The ride board is very nice to use bc you can always find rides for the low. The problem is that one
-has to scroll all the way down for a while just to find what you're looking for.
+The [ride board](https://www.facebook.com/groups/536633829764055/) has a lot of active users offering and asking for rides for a very good price.  I use it all the time. The problem is, to find a ride you have to scroll past every post and identify if it suits your needs.  Such needs might be origin, destination, leave date, etc.  This is tedious.
 
 Solution
 --------
-It would be nice to have an app that allows the user to filter, sort, and compare rides instantly.
+It would be nice to be able to filter and sort through posts instantly.  This way all you have to do is compare the rides that already suit your needs.
 
 
 UX
 --
-Display a feed that lists posts depending on the user filter options.  There are two modes, offering
-or asking, and each have slightly different options.  Each representation of the post should display
-all of the filter option info if available along with author name, and other nice-to-haves.  There
-should also be a link to the original post to allow the user to message and book a ride.
- Note: the app will not handle messaging or booking of rides.  Leave that to FB.
+Display a feed that lists posts depending on the user filter options.  There are two modes, offering or asking, and each have slightly different options.  Provide a link to the original post on FB to allow the users to message each other and book a ride. **Note**: the app will not handle messaging or booking of rides.  Leave that to FB.
 
 ### Filter Options
 
@@ -48,11 +43,11 @@ Authentication
 Prerequisites
 ----------
 * make sure the FB API gives us access to
-  1. a private group (assuming an admin accepts)
-  2. the complete feed of the group
-  3. a machine-friendly representation of text with background images
-  4. the following post info
-    * date posted/updated
+  1. a private group (assuming an admin is willing to grant us access)
+  1. a machine-friendly representation of text with background images
+  1. the following post info
+    * date posted
+    * date updated
     * link to the original post on fb
 
 NLP Parser
@@ -82,7 +77,7 @@ Offering
 1. Determine if offering or asking?
   Asking
 
-2. Extract information.
+2. Extract data.
 ```
   {
     origin: "Utah",
