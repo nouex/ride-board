@@ -60,4 +60,35 @@ NLP Parser
 
 ### Example Posts
 ![alt text](https://github.com/baaae/Ride-Board/blob/master/screenshots/Screen%20Shot%202020-04-04%20at%203.59.07%20PM.png "Logo Title Text 1")
+
+1. Determine if offering or asking?
+Offering
+
+2. Extract data.
+```
+  {
+    origin: "Salt Lake",
+    destination: "Rexburg",
+    leaveDate: "Saturday April 04",
+    returnDate: null,
+    priceOneWay: null,
+    priceTwoWay: null,
+    seatsAvailable: 3
+  }
+```
+
 ![alt text](https://github.com/baaae/Ride-Board/blob/master/screenshots/Screen%20Shot%202020-04-04%20at%204.01.41%20PM.png "Logo Title Text 1")
+
+1. Determine if offering or asking?
+  Asking
+
+2. Extract information.
+```
+  {
+    origin: "Utah",
+    destination: "Rexburg",
+    leaveDate: "this week",
+    returnDate: null,
+    seatsNeeded: 2
+  }
+```
