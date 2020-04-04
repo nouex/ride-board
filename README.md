@@ -59,5 +59,5 @@ NLP Parser
 ----------
 
 ### Example Posts
-![alt text](https://www.dropbox.com/s/ledb9yrjy34s7ln/Screen%20Shot%202020-04-04%20at%204.01.41%20PM.png?dl=0 "Logo Title Text 1")
-![alt text](https://www.dropbox.com/s/2cggujcfvc7ipt9/Screen%20Shot%202020-04-04%20at%203.59.07%20PM.png?dl=0 "Logo Title Text 1")
+![alt text](https://github.com/baaae/Ride-Board/blob/master/screenshots/Screen%20Shot%202020-04-04%20at%203.59.07%20PM.png "Logo Title Text 1")
+![alt text](https://github.com/baaae/Ride-Board/blob/master/screenshots/Screen%20Shot%202020-04-04%20at%204.01.41%20PM.png "Logo Title Text 1")
